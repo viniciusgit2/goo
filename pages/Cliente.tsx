@@ -5,7 +5,7 @@ export default function Cliente () {
    return retorno(id,idade,nome)
    
 } 
- export function retorno (id,idade,nome){
+ export function retorno (id,idade,nome): JSX.Element{
  return <div> 6,10,20"oi" </div>
 
  }
